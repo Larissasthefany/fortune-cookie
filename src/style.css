@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+}
+
+.textoFrase{
+    font-style: italic;
+    font-size: 1.3rem;
+    color: #dd7b22;
+    text-align: center;
+}
+
+button {
+    margin-top: 30px;
+    border: none;
+    background-color: #dd7b22;
+    cursor: pointer;
+    color: #fff;
+    padding: 11px 12px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-style: italic;
+    font-weight: bold;
+}
